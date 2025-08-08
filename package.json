@@ -29,17 +29,17 @@
     "set path",
     "get path"
   ],
-  "author": "Benedikt Sottong <benediktsommer@aol.de>",
+  "author": "Benedikt Sottong <8019787+besotti@users.noreply.github.com>",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^29.5.13",
-    "jest": "^29.7.0",
-    "ts-jest": "^29.2.5",
-    "typescript": "^5.6.2",
-    "eslint": "^8",
-    "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-import": "2.30.0",
-    "eslint-plugin-prettier": "5.2.1",
-    "@typescript-eslint/eslint-plugin": "^8.8.0"
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.1",
+    "typescript": "^5.9.2",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-import": "2.32.0",
+    "eslint-plugin-prettier": "5.5.4",
+    "@typescript-eslint/eslint-plugin": "^8.39.0"
   }
 }

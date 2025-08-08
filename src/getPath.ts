@@ -76,8 +76,8 @@ export function getPath<T, P extends Path<T> | string, F>(
     }
 
     if (Array.isArray(result)) {
-        return result.length > 1 ? result : (result[0] ?? defaultValue);
+        return (result.length > 1 ? result : (result[0] ?? defaultValue)) as P extends Path<T> ? any : F;
     }
 
-    return result;
+    return result as P extends Path<T> ? any : F;
 }
